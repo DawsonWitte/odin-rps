@@ -1,18 +1,6 @@
-/*
-Things to add:
-better and even sized buttons
-pick some colors
-5 circles which indicate rounds won, 3rd cirle is bigger
-win or loss after each round
-victory or defeat after a best of 5 game
-cartoon brain and circuitboard  represented with pink and green respectively
-rock, paper, and scissors icons
-cool font
-works on mobile and desktop (maybe the buttons should be stacked in column instead of row)
-*/
 
 *{
-    background: #ffe8d6;
+    background: #e7ecef;
     font-family: 'Roboto Slab', serif;
     src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 }
@@ -35,6 +23,7 @@ works on mobile and desktop (maybe the buttons should be stacked in column inste
 .circles div{
     margin-left: 10px;
     margin-right: 10px;
+    background-color: white;
 }
 
 .not-win{
@@ -57,6 +46,7 @@ works on mobile and desktop (maybe the buttons should be stacked in column inste
     justify-content: center;
     align-items: flex-start;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -70,11 +60,14 @@ works on mobile and desktop (maybe the buttons should be stacked in column inste
 
 .pick{
     font-size: 50px;
+    width: 250px;
 }
+
 
 .announcement-container{
     display: flex;
     justify-content: center;
+    height: 150px;
 }
 
 .announcement{
@@ -90,7 +83,7 @@ works on mobile and desktop (maybe the buttons should be stacked in column inste
 }
 
 .button {
-    background-color: burlywood;
+    background-color: #8b8c89;
     color:black;
     border: none;
     padding: 20px;
