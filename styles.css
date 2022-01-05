@@ -1,20 +1,104 @@
+/*
+Things to add:
+better and even sized buttons
+pick some colors
+5 circles which indicate rounds won, 3rd cirle is bigger
+win or loss after each round
+victory or defeat after a best of 5 game
+cartoon brain and circuitboard  represented with pink and green respectively
+rock, paper, and scissors icons
+cool font
+works on mobile and desktop (maybe the buttons should be stacked in column instead of row)
+*/
 
+*{
+    background: #ffe8d6;
+    font-family: 'Roboto Slab', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+}
+
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.circles{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.circles div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.not-win{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 50px;
+    border: solid black 4px;
+    height: auto;
+}
+
+.win{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 75px;
+    border: solid black 4px;
+}
+
+.vs-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+}
+
+
+.vs{
+    font-size: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pick{
+    font-size: 50px;
+}
+
+.announcement-container{
+    display: flex;
+    justify-content: center;
+}
+
+.announcement{
+    font-size: 50px;
+}
 
 .button-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 100px
+    margin-top: 30px
 }
 
 .button {
     background-color: burlywood;
-    color:cornflowerblue;
+    color:black;
     border: none;
     padding: 20px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 15px;
+    font-size: 50px;
+    width: 300px
   }
